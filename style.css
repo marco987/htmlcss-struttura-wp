@@ -28,9 +28,9 @@ section {
 
 .colonna1 {
   float: left;
-  background-color: white;
+  background-color: yellow;
   width: 22%;
-  height: 500px;
+  height: 800px;
   margin: 0 3% 0 0;
 }
 
@@ -38,7 +38,7 @@ section {
   float: left;
   background-color: white;
   width: 42%;
-  height: 500px;
+  height: 600px;
   margin: 0 3% 0 0;
 }
 
@@ -55,13 +55,20 @@ section {
   position: relative;
   float: right;
   margin: 0;
-  background-color: red;
+  background-color: yellow;
   width: 30%;
   height: 500px;
 }
 
-/* section:after {
+section:after {
   content: "";
   display: table;
   clear: both;
-} */
+}
+
+footer {
+  background-color: #504643;
+  height: 50px;
+  margin: 15px 15px 15px 15px;
+  position: relative;
+}
