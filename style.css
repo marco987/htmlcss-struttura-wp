@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   background-color: #96866B;
+  box-sizing: border-box;
 }
 
 header {
@@ -19,4 +20,38 @@ header {
   height: 30px;
   margin: 0 15px 15px 15px;
   position: relative;
+}
+
+section {
+  margin: 0 15px 0 15px;
+}
+
+.colonna1 {
+  float: left;
+  background-color: white;
+  width: 22%;
+  height: 500px;
+  margin: 0 3% 0 0;
+}
+
+.colonna2 {
+  float: left;
+  background-color: white;
+  width: 42%;
+  height: 500px;
+  margin: 0 3% 0 0;
+}
+
+.colonna3 {
+  float: left;
+  background-color: white;
+  width: 30%;
+  height: 500px;
+  margin: 0 0 0 0;
+}
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
 }
