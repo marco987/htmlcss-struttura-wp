@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   background-color: #96866B;
 }
 
@@ -10,5 +9,14 @@ header {
   height: 150px;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 10px 10px 0px 10px;
+  background-position: center;
+  margin: 15px 15px 0px 15px;
+  border: 10px solid white;
+}
+
+.menu {
+  background-color: #504643;
+  height: 30px;
+  margin: 0 15px 15px 15px;
+  position: relative;
 }
